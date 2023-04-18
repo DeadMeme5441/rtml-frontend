@@ -7,10 +7,13 @@ import "./App.css";
 function App() {
 
   const [folders, setFolders] = useState(null);
+  const [currentFile, setCurrentFile] = useState(null);
 
   const globalVars = {
     folders: folders,
-    setFolders: setFolders
+    setFolders: setFolders,
+    currentFile: currentFile,
+    setCurrentFile: setCurrentFile,
   };
 
   return (
@@ -19,7 +22,7 @@ function App() {
         <MainLayout />
       </div>
     }
-    </MainContext.Provider >
+    </MainContext.Provider>
   );
 }
 

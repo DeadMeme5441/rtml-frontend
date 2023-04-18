@@ -1,4 +1,4 @@
-import FileExplorer from "./FileExplorer"
+import FileExplorer from "./FileExplorer/FileExplorer"
 
 const ContextMenu = ({ context, show }) => {
   if (show == true) {

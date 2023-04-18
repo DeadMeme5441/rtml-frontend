@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import ContextMenu from "./ContextMenu";
+import ContextMenu from "./ContextMenu/ContextMenu";
 
 const SideBar = () => {
   const [contextMenu, setContextMenu] = useState("None");
